@@ -1,10 +1,18 @@
+import 'package:blinkit/repository/screens/home/Homescreen.dart';
 import 'package:blinkit/repository/screens/login/loginscreen.dart';
 import 'package:blinkit/repository/screens/spalsh/splashscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (ctx) => CartProvider(),
+      child: MyApp(),
+    ),
+  );
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
