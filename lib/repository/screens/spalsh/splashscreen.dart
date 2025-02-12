@@ -15,7 +15,7 @@ class _spalshscreenState extends State<spalshscreen> {
   void initState(){
     super.initState();
     Timer(Duration(seconds: 3),(){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)  => loginscreen()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)  => LoginScreen()));
     });
   }
   Widget build(BuildContext context) {
