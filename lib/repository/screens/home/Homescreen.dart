@@ -284,7 +284,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       "id": "4",
       "name": "4 seater sofa",
       "image": "image 39.png",
-      "price": 11000.0,
+      "price": 110.0,
       "unit": "1pcs",
       "category": "seat",
       "rating": 4.3,
